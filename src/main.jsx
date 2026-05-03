@@ -10,7 +10,6 @@ import {
   CircleHelp,
   GraduationCap,
   HeartHandshake,
-  Instagram,
   Lightbulb,
   Mail,
   MessageCircle,
@@ -26,12 +25,11 @@ import "./styles.css";
 
 const WHATSAPP_LINK = "https://wa.me/971567501095?text=Hi%21%20I%20am%20interested%20in%20your%20AI%20App%20Building%20Coaching%20Program";
 const EMAIL_LINK = "mailto:hello@example.com";
-const INSTAGRAM_LINK = "https://instagram.com/example";
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/xeenepbg";
 
 const audience = [
   { icon: HeartHandshake, title: "Homemakers", copy: "Turn everyday ideas into simple useful apps." },
-  { icon: Instagram, title: "Influencers", copy: "Build tools for your audience, community, or offers." },
+  { icon: UserCheck, title: "Influencers", copy: "Build tools for your audience, community, or offers." },
   { icon: Store, title: "Small business owners", copy: "Create booking, catalog, and service app concepts." },
   { icon: BriefcaseBusiness, title: "Professionals", copy: "Prototype an app idea without learning code first." },
 ];
@@ -152,7 +150,7 @@ function App() {
             <span className="grid h-10 w-10 place-items-center rounded-full bg-ink text-white">
               <WandSparkles size={19} />
             </span>
-            <span>Premium AI app-building coaching in Dubai</span>
+            <span>Premium AI app-building coaching in UAE</span>
           </a>
           <a href={WHATSAPP_LINK} className="hidden items-center gap-2 rounded-full border border-ink/10 bg-white/70 px-4 py-2 text-sm font-semibold shadow-sm backdrop-blur sm:flex">
             <MessageCircle size={17} />
@@ -370,10 +368,9 @@ function App() {
 
       <footer className="border-t border-ink/10 bg-white px-5 py-8 sm:px-8">
         <div className="mx-auto flex max-w-7xl flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
-          <p className="font-semibold">Premium AI app-building coaching in Dubai</p>
+          <p className="font-semibold">Premium AI app-building coaching in UAE</p>
           <div className="flex flex-wrap gap-3 text-sm font-semibold text-ink/70">
             <a className="inline-flex items-center gap-2 hover:text-palm" href={WHATSAPP_LINK}><MessageCircle size={16} /> Talk on WhatsApp</a>
-            <a className="inline-flex items-center gap-2 hover:text-palm" href={INSTAGRAM_LINK}><Instagram size={16} /> Instagram</a>
             <a className="inline-flex items-center gap-2 hover:text-palm" href={EMAIL_LINK}><Mail size={16} /> Email</a>
           </div>
         </div>
