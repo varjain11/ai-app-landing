@@ -24,7 +24,7 @@ import {
 } from "lucide-react";
 import "./styles.css";
 
-const WHATSAPP_LINK = "https://wa.me/91567501095?text=Hi%21%20I%20am%20interested%20in%20your%20AI%20App%20Building%20Coaching%20Program";
+const WHATSAPP_LINK = "https://wa.me/971567501095?text=Hi%21%20I%20am%20interested%20in%20your%20AI%20App%20Building%20Coaching%20Program";
 const EMAIL_LINK = "mailto:hello@example.com";
 const INSTAGRAM_LINK = "https://instagram.com/example";
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/xeenepbg";
@@ -166,14 +166,14 @@ function App() {
               <p>Not from a tech background?</p>
               <p>Feel like coding is just too complicated?</p>
             </div>
-            <h1 className="mx-auto max-w-3xl text-4xl font-bold leading-[1.16] tracking-normal text-ink sm:text-5xl sm:leading-[1.12] lg:text-6xl lg:leading-[1.1]">
-              Build Your First App with AI
+            <h1 className="mx-auto max-w-6xl text-4xl font-bold leading-[1.16] tracking-normal text-ink sm:text-5xl sm:leading-[1.12] lg:whitespace-nowrap lg:text-6xl lg:leading-[1.1]">
+              We help you build your first app with AI
             </h1>
               <p className="mx-auto mt-8 max-w-2xl text-lg font-medium leading-8 text-ink/70 sm:text-xl sm:leading-9">
-              A beginner-friendly 1:1 coaching program where I guide you step-by-step — no coding, no confusion.
+              A beginner-friendly 1:1 coaching program where we guide you step-by-step — no coding, no confusion.
             </p>
             <p className="mx-auto mt-4 max-w-xl text-base italic leading-7 text-ink/60 sm:text-lg">
-              I&apos;ll work with you personally to turn your idea into a real app.
+              We&apos;ll work with you personally to turn your idea into a real app.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-2 text-sm font-semibold text-ink/65 sm:flex-row sm:gap-5">
               {["No technical background required", "Beginner-friendly program"].map((item) => (
@@ -367,7 +367,7 @@ function App() {
             </button>
             {formStatus === "success" && (
               <p className="rounded-2xl bg-palm/10 px-4 py-3 text-sm font-semibold text-palm opacity-100 transition-opacity duration-300 sm:col-span-2">
-                Thanks! I&apos;ll personally reach out to you within 24 hours.
+                Thanks! We&apos;ll personally reach out to you within 24 hours.
               </p>
             )}
             {formStatus === "error" && (
