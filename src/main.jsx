@@ -166,7 +166,7 @@ function App() {
               <p>Not from a tech background?</p>
               <p>Feel like coding is just too complicated?</p>
             </div>
-            <h1 className="mx-auto max-w-6xl text-4xl font-bold leading-[1.16] tracking-normal text-ink sm:text-5xl sm:leading-[1.12] lg:whitespace-nowrap lg:text-6xl lg:leading-[1.1]">
+            <h1 className="mx-auto max-w-5xl text-4xl font-bold leading-[1.16] tracking-normal text-ink sm:text-5xl sm:leading-[1.12] lg:text-[4.35rem] lg:leading-[1.08] xl:text-[4.75rem]">
               We help you build your first app with AI
             </h1>
               <p className="mx-auto mt-8 max-w-2xl text-lg font-medium leading-8 text-ink/70 sm:text-xl sm:leading-9">
