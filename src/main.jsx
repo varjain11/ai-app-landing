@@ -169,21 +169,10 @@ function App() {
             <h1 className="mx-auto max-w-5xl text-4xl font-bold leading-[1.16] tracking-normal text-ink sm:text-5xl sm:leading-[1.12] lg:text-[4.35rem] lg:leading-[1.08] xl:text-[4.75rem]">
               We help you build your first app with AI
             </h1>
-              <p className="mx-auto mt-8 max-w-2xl text-lg font-medium leading-8 text-ink/70 sm:text-xl sm:leading-9">
+            <p className="mx-auto mt-8 max-w-2xl text-lg font-medium leading-8 text-ink/70 sm:text-xl sm:leading-9">
               A beginner-friendly 1:1 coaching program where we guide you step-by-step — no coding, no confusion.
             </p>
-            <p className="mx-auto mt-4 max-w-xl text-base italic leading-7 text-ink/60 sm:text-lg">
-              We&apos;ll work with you personally to turn your idea into a real app.
-            </p>
-            <div className="mt-6 flex flex-col items-center justify-center gap-2 text-sm font-semibold text-ink/65 sm:flex-row sm:gap-5">
-              {["No technical background required", "Beginner-friendly program"].map((item) => (
-                <span key={item} className="inline-flex items-center gap-2">
-                  <Check size={16} className="text-palm/80" />
-                  {item}
-                </span>
-              ))}
-            </div>
-            <div className="mt-10 flex w-full flex-col justify-center gap-3 sm:w-auto sm:flex-row">
+            <div className="mt-8 flex w-full flex-col justify-center gap-3 sm:w-auto sm:flex-row">
               <a href="#lead-form" className="inline-flex items-center justify-center gap-2 rounded-full bg-ink px-6 py-4 text-base font-semibold text-white shadow-soft transition hover:-translate-y-0.5">
                 Book Your First Session
                 <ArrowRight size={18} />
