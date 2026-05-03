@@ -160,7 +160,7 @@ function App() {
 
         <div className="relative z-10 mx-auto flex min-h-[calc(100vh-84px)] max-w-5xl flex-col items-center justify-center px-5 pb-24 pt-10 text-center sm:px-8 sm:pb-28 sm:pt-12 lg:pb-32 lg:pt-16">
             <div className="mb-8 grid gap-2 text-base font-semibold leading-7 text-ink/60 sm:text-lg">
-              <p>Have an app idea but don&apos;t know how to build it?</p>
+              <p>Have an idea for an app (mobile / web / personal) but don&apos;t know how to build it?</p>
               <p>Not from a tech background?</p>
               <p>Feel like coding is just too complicated?</p>
             </div>
